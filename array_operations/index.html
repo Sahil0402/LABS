@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sorting & Searching of array</title>
+    <link rel='icon' type='image/png' href='https://s2.googleusercontent.com/s2/favicons?domain=www.vit.edu'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1>Sorting & Searching of array</h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Integer Array</h2>
+                <form class="form_container">
+                    <div class="form-group">
+                        <label for="inputArray">Enter Array Elements (separated by commas):</label>
+                        <input type="text" class="form-control" id="inputArray" placeholder="Enter array elements...">
+                    </div>
+                    <div class="buttons_container">
+                        <button type="button" class="btn" id="sortBtn">Sort Array</button>
+                        <button type="button" class="btn" id="searchBtn">Search Array</button>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="searchElement">Enter Search Element:</label>
+                        <input type="number" class="form-control" id="searchElement"
+                            placeholder="Enter search element...">
+                    </div>
+                </form>
+                <div class="mt-3">
+                    <h6 class="result-label"></h6>
+                    <ul id="sortedArray"></ul>
+                </div>
+                <div class="mt-3">
+                    <h6 class="result-label"></h6>
+                    <p id="searchResult"></p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h2>Named Entity Array</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="inputNamedEntities">Enter Named Entities (separated by commas):</label>
+                        <input type="text" class="form-control" id="inputNamedEntities"
+                            placeholder="Enter named entities...">
+                    </div>
+                    <button type="button" class="btn btn-primary" id="namedEntityBtn">Show Named Entities</button>
+                </form>
+                <div class="mt-3">
+                    <h6 class="result-label">Named Entities:</h6>
+                    <ul id="namedEntities"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container">
+        <h1>Searching and Sorting Arrays</h1>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>Search Array</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="inputArray">Input Array:</label>
+                                <input type="text" class="form-control" id="inputArray"
+                                    placeholder="Enter array elements separated by commas">
+                            </div>
+                            <div class="form-group">
+                                <label for="searchElement">Search Element:</label>
+                                <input type="text" class="form-control" id="searchElement"
+                                    placeholder="Enter search element">
+                            </div>
+                            <button type="button" class="btn btn-primary" id="searchBtn">Search</button>
+                        </form>
+                        <div class="result-label" style="display:none;">
+                            <span id="searchResult"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>Sort Array</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="inputArray">Input Array:</label>
+                                <input type="text" class="form-control" id="inputArray"
+                                    placeholder="Enter array elements separated by commas">
+                            </div>
+                            <button type="button" class="btn btn-primary" id="sortBtn">Sort</button>
+                        </form>
+                        <div class="result-label" style="display:none;">
+                            <span id="sortedArray"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+</body>
+<script src="./script.js"></script>
+
+</html>

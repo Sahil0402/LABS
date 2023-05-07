@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+body {
+  margin: 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.collegeInfo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 20px;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.b1 {
+  font-size: 20px;
+}
+
+table,
+td {
+  border: 1px solid black;
+}
+
+.d2 {
+  justify-content: end;
+  display: flex;
+}
+
+.sec1_1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 4px;
+}
+table{
+    width: 1000px;
+}
+.studentInfo{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.marksTable{
+    display: flex;
+    justify-content: center;
+}
+.examInfoContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+.examInfo_1{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.examInfo_2{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.examInfo_3{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
